@@ -18,13 +18,6 @@ conn = psycopg2.connect(
 	    password = pgpassword,
 	    host = "localhost",
 	    port = "5432",
-        test11={
-    "testname":"Check for valid values",
-    "test":check_for_valid_values,
-    "column": "quarter",
-    "table": "DimMonth",
-    "valid_values":{1,2,3,4}
-}
 	    database = "billingDW")
 
 print("Connected to data warehouse")
