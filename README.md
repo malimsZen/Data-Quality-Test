@@ -2,7 +2,7 @@
 This program intergrates data sources into target systems then verifies data  quality by conducting a range of quality checks on staged data in the billing-datawarehouse by looking for missing values and dublicated records.The program achieves the objective of decoupling processing from source systems, helpnig to miniimize data corruption and acting as an archive at the same time.
 
 
-
+ 
 # Table of Content:
 1. Design and implement billing-datawarehouse schema.
 2. Load Customer and Month dimension tables.
