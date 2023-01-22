@@ -1,5 +1,6 @@
 import os
 import psycopg2
+
 pgpassword = os.environ.get('POSTGRES_PASSWORD')
 conn = None
 try:
